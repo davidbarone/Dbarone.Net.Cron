@@ -46,5 +46,5 @@ The library is very simple to use, an example is shown below:
     var cron = Cron.Create("0 0 * * 0");
 
     // Calculate next Datetime from now.
-    var next = c.Next();
+    var next = cron.Next();
 ```
